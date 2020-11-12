@@ -1,4 +1,3 @@
-
 def entrenar(red_neuronal, Entrada, Respuesta, funcion_costo, tasa_aprendizaje=0.05, entrenar=True):
     """Si entrenar esta en true, se obtiene los resultados del forward_pass, luego se hace el proceso de backpropagation
     donde se calculan los deltas, y luego con esto se realiza el aprendizaje por el desenso de gradiente"""

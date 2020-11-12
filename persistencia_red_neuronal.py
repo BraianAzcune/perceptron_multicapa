@@ -10,3 +10,4 @@ def cargar():
     with open('red_neuronal.pkl', 'rb') as input:
         red = pickle.load(input)
         return red
+
