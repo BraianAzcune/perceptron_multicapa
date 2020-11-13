@@ -12,6 +12,7 @@ def cargar_datos(path:str):
     #numpy.ndarray
 
     respuestas = data[:, -1]
+    respuestas = respuestas[:, np.newaxis]
     data = data[:, :-1]
 
     return data, respuestas
