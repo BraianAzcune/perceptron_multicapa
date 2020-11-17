@@ -45,6 +45,4 @@ else:
     prediccion = en.entrenar(red_neuronal=red_neuronal, Entrada=data, Respuesta=respuesta,
                           funcion_costo=ecm, tasa_aprendizaje=con.tasa_aprendizaje, entrenar=False)
 
-
-
-#mostrar performance de la red
+    #mostrar performance de la red
